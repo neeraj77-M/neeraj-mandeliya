@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neeraj Mandeliya - Computer Science Engineer and IT/ITeS Trainer">
+    <title>Neeraj Mandeliya IT Trainer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.7;
+        }
+
+        header {
+    text-align: center;
+    padding: 100px 20px;
+    background:
+        linear-gradient(rgba(5, 15, 40, 0.65), rgba(5, 15, 40, 0.75)),
+        url("tech-background.png") center/cover no-repeat;
+    color: white;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+
+        header h1 {
+            font-size: clamp(32px, 5vw, 48px);
+            color: white;
+        }
+
+        header p {
+            margin-top: 8px;
+            color: #dbeafe;
+        }
+
+        .tagline {
+            font-size: 18px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 22px;
+            padding: 16px;
+            background: #111827;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #93c5fd;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 45px 22px;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-bottom: 20px;
+            font-size: 27px;
+        }
+
+        h3 {
+            color: #f8fafc;
+            margin-bottom: 5px;
+        }
+
+        .card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 22px;
+            margin-bottom: 16px;
+        }
+
+        .muted {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            background: #1d4ed8;
+            color: white;
+            padding: 7px 13px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        a {
+            color: #93c5fd;
+            overflow-wrap: anywhere;
+        }
+
+        .contact-links p {
+            margin: 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                gap: 12px;
+            }
+
+            section {
+                padding: 32px 16px;
+            }
+
+            .card {
+                padding: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Neeraj Mandeliya</h1>
+        <p class="tagline">Computer Science Engineer |  IT/ITeS Trainer </p>
+        <p>B.Tech in Computer Science Engineering · 2023</p>
+        <p>IT Training · Computer Education · Web Development</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                Currently, I work as an IT/ITeS Vocational Trainer,
+                where I help students develop practical computer skills and 
+                understand digital technologies. My technical interests 
+                include web development, Python programming, database management,
+                and software technologies.I am passionate about continuous 
+                learning, problem-solving, and using technology to create 
+                practical solutions. 
+                I aim to grow professionally in the IT industry while 
+                strengthening my technical and development skills.
+
+                I am a Computer Science Engineering graduate with professional
+                experience in computer education, IT/ITeS training, customer
+                support, and business development. My technical interests
+                include Python programming, web development, databases, and
+                digital technologies.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>B.Tech – Computer Science Engineering</h3>
+            <p>Sagar Group of Institutions (SISTec), Bhopal</p>
+            <p>Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)</p>
+            <p class="muted">CGPA: 7.67 · Completed in 2023</p>
+        </div>
+
+        <div class="card">
+            <h3>Class 12 – MP Board</h3>
+            <p>Nav Chetna H.S. School, Pipariya</p>
+            <p class="muted">2019 · 65%</p>
+        </div>
+
+        <div class="card">
+            <h3>Class 10 – MP Board</h3>
+            <p>Nav Chetna H.S. School, Pipariya</p>
+            <p class="muted">2017 · 58.16%</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="card">
+            <h3>Programming & Web Development</h3>
+            <div class="skills">
+                <span>Python</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+                <span>DBMS</span>
+                <span>Data Structures</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Software & Productivity Tools</h3>
+            <div class="skills">
+                <span>MS Excel</span>
+                <span>MS Word</span>
+                <span>PowerPoint</span>
+                <span>Adobe Photoshop</span>
+                <span>Wondershare Filmora</span>
+                <span>Tally</span>
+                <span>Git</span>
+                <span>GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+
+        <div class="card">
+            <h3>IT/ITeS Vocational Trainer</h3>
+            <p>Dream Weavers Edutrack Private Limited.</p>
+            <p class="muted">June 2025 – Present</p>
+            <ul>
+                <li>Provide practical IT training and computer education.</li>
+                <li>Guide students in computer applications and digital tools.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Computer Teacher</h3>
+            <p>Vidyasagar School, Pipariya, Madhya Pradesh</p>
+            <p class="muted">From 1 May 2024</p>
+            <ul>
+                <li>Taught computer fundamentals and practical applications.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Apprentice Trainee – Customer Support Executive</h3>
+            <p>Bajaj Finserv Pvt. Ltd.</p>
+            <p class="muted">3 October 2023 – 17 April 2024</p>
+        </div>
+
+        <div class="card">
+            <h3>Business Development Intern</h3>
+            <p>Movidu Technology Pvt. Ltd.</p>
+            <p class="muted">22 May 2023 – 25 September 2023</p>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certifications & Training</h2>
+
+        <div class="card">
+            <h3>NASSCOM</h3>
+            <p>Adobe UX Foundation Learning</p>
+        </div>
+
+        <div class="card">
+            <h3>DevTown</h3>
+            <p>Bootcamp on Basics of Development</p>
+        </div>
+
+        <div class="card">
+            <h3>Technical Training</h3>
+            <ul>
+                <li>Python Training</li>
+                <li>Web Development</li>
+                <li>Database Management Systems (DBMS)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="strengths">
+        <h2>Strengths & Interests</h2>
+        <div class="card">
+            <div class="skills">
+                <span>Discipline</span>
+                <span>Creative Thinking</span>
+                <span>Self-Motivated</span>
+                <span>Chess</span>
+                <span>Video Creation</span>
+                <span>English Communication</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="card contact-links">
+            <p><strong>Email:</strong>
+                <a href="mailto:neerajmandeliya928@gmail.com">
+                    neerajmandeliya928@gmail.com
+                </a>
+            </p>
+
+            <p><strong>Phone:</strong>
+                <a href="tel:+917049961677">+91 7049961677</a>
+            </p>
+
+            <p><strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/neeraj-mandeliya-b789b4196/" target="_blank" rel="noopener noreferrer">
+                    Neeraj Mandeliya
+                </a>
+            </p>
+
+            <p><strong>GitHub:</strong>
+                <a href="https://github.com/neeraj77-M" target="_blank" rel="noopener noreferrer">
+                    github.com/neeraj77-M
+                </a>
+            </p>
+
+            <p><strong>Location:</strong>India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2020 Neeraj Mandeliya · Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
